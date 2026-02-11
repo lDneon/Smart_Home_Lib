@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MiniSmartHomeLib
 {
-    internal class SmartDevice
+    internal abstract class SmartDevice
     {
         public string Device_Id { get; }
         public string Name { get; private set; }
